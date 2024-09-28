@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="498.135">
+    <testcase classname="Google Account Login Feature" name="Google Account Login Test" time="28.554">
+        <system-out><![CDATA[Given User is able to navigate to Google Login Page URL.....................passed
+When Title is Sign in - Google Accounts.....................................passed
+Then User enters ID.........................................................passed
+Then User clicks on Next button.............................................passed
+Then User enters Password...................................................passed
+Then User clicks on Next button.............................................passed
+Then User is on Home Page...................................................passed
+And Browser is closed for Login Test........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Login Feature" name="Google Account Forgot Email Test" time="28.534">
+        <system-out><![CDATA[Given User is able to navigate to Google Login Page URL.....................passed
+Then Click on Forgot Email link.............................................passed
+Then Enter Recovery Email...................................................passed
+Then User clicks on Next button.............................................passed
+Then Enter Recovery Email Details...........................................passed
+Then User clicks on Next button.............................................passed
+And Browser is closed for Login Test........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Login Feature" name="Google Account Learn More About using Guest mode Test" time="8.932">
+        <system-out><![CDATA[Given User is able to navigate to Google Login Page URL.....................passed
+Then Verify Learn More link text............................................passed
+Then Click on Learn more about using Guest mode link........................passed
+And Browser is closed for Login Test........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Home Feature" name="Google Account Home Test" time="28.338">
+        <system-out><![CDATA[Given Login and Navigate to Home Page.......................................passed
+Then Home Page Welcome texts are verified...................................passed
+And Browser is closed for Home Test.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Home Feature" name="Google Account Home - Add Recovery Details" time="38.742">
+        <system-out><![CDATA[Given Login and Navigate to Home Page.......................................passed
+Then Add Recovery Details as Phone Number equals to "4377331160" and Address equals to "ABC".passed
+And Browser is closed for Home Test.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Home Feature" name="Google Account Home - Add Recovery Details using Examples keyword" time="40.251">
+        <system-out><![CDATA[Given Login and Navigate to Home Page.......................................passed
+Then Add Recovery Details using Examples as Phone Number equals to "4377331160" and Address equals to "6 Rotunda St".passed
+And Browser is closed for Home Test.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Home Feature" name="Google Account Home - Add Recovery Details using Examples keyword 2" time="38.742">
+        <system-out><![CDATA[Given Login and Navigate to Home Page.......................................passed
+Then Add Recovery Details using Examples as Phone Number equals to "5136789012" and Address equals to "75 Mc Murchy".passed
+And Browser is closed for Home Test.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Home Feature" name="Google Account Home - Add Recovery Details using Examples keyword 3" time="38.577">
+        <system-out><![CDATA[Given Login and Navigate to Home Page.......................................passed
+Then Add Recovery Details using Examples as Phone Number equals to "4324567890" and Address equals to "18 Withers Way".passed
+And Browser is closed for Home Test.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Home Feature" name="Google Account Home - Add Recovery Details using Data Table" time="68.718">
+        <system-out><![CDATA[Given Login and Navigate to Home Page.......................................passed
+Then Add Recovery Details using Data Table..................................passed
+And Browser is closed for Home Test.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Home Feature" name="Google Account Home - Add Recovery Details using Maps" time="72.836">
+        <system-out><![CDATA[Given Login and Navigate to Home Page.......................................passed
+Then Add Recovery Details using Maps........................................passed
+And Browser is closed for Home Test.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Personal Info Feature" name="Google Account Personal Info Test" time="31.883">
+        <system-out><![CDATA[Given Login and Land on Home Page...........................................passed
+Then Click on Personal Info.................................................passed
+Then Personal Info Header texts are verified................................passed
+And Browser is closed for Personal Info Test................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Personal Info Feature" name="Google Account Personal Info - Basic Info" time="42.142">
+        <system-out><![CDATA[Given Login and Land on Home Page...........................................passed
+Then Click on Personal Info.................................................passed
+Then Verify Basic Info......................................................passed
+And Browser is closed for Personal Info Test................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Account Personal Info Feature" name="Google Account Personal Info - Contact Info" time="31.57">
+        <system-out><![CDATA[Given Login and Land on Home Page...........................................passed
+Then Click on Personal Info.................................................passed
+Then Verify Contact Info....................................................passed
+And Browser is closed for Personal Info Test................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
