@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true
 //		tags = "@SmokeTest or @RegressionTest"
 //      tags = "@SmokeTest and @RegressionTest"		
-		tags = "not @SmokeTest or @RegressionTest"	
+//		tags = "not @SmokeTest or @RegressionTest"	
 				)
 
 
